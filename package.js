@@ -11,8 +11,8 @@ Package.onUse(function (api, where) {
 	api.imply('iron:router@1.0.0', ['client', 'server']);
 	// api.use('iron-router', ['client', 'server']);
 	// api.imply('iron-router', ['client', 'server']);
-	api.use("fourseven:scss@0.9.5", ['client', 'server']);
-  	api.imply('fourseven:scss@0.9.5', ['client', 'server']);
+	api.use("fourseven:scss@3.4.1", ['client', 'server']);
+  	api.imply('fourseven:scss@3.4.1', ['client', 'server']);
 
   	api.addFiles('iron-router-tour.js', 'client');
   	api.addFiles('iron-router-tour.html', 'client');
